@@ -58,6 +58,21 @@
 
 \new StaffGroup <<
 		\time 4/4
+
+		%\new Staff \with {
+			%instrumentName = Akkordeon
+		%} {\akkordeon}
+
+		\new Staff \with {
+			instrumentName = Akkordeon
+		} \transpose c c {
+			\clef violin
+			\melody
+		}
+	>>
+
+\new StaffGroup <<
+		\time 4/4
 		\new Staff \with {
 			instrumentName = \markup { "Klar." \concat{ B \teeny \raise #0.4 \flat } }
 			} \transpose b c' {
@@ -88,4 +103,3 @@
 			instrumentName = Akkordeon
 		} {\akkordeon_outro}
 	>>
-
