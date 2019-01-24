@@ -130,16 +130,23 @@ akkordeonchords_mittelteil = \chordmode {
 			d2
 
 		\repeat volta 3 {
-			g2 d     g1
-                        e2:m h   e1:m       a2:m d       a:m d
+			g2 d
+      g1
+      e2:m h
+      e1:m
+      a2:m d
+      a:m d
 		}
 		\alternative {
-			g1 a2:m d:7
+      {
+			g1
+      a2:m d:7
 		}
 		{
-			g4  g/d  g:m/cis g:m/c
-		}
-		 h1
+			g4  %g/d  g:m/cis g:m/c
+      g4
+		}}
+		%h1
 }
 
 akkordeon_outro = \relative c' {
