@@ -123,9 +123,43 @@ akkordeon_mittelteil =
 		}
 	}
 
+akkordeonchords_mittelteil = \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	\set chordChanges = ##t
+	\set noChordSymbol = ""
+
+		\partial 2
+			d2
+	
+		\repeat volta 3 {
+			g2 d     g1 
+                        e2:m h   e1:m       a2:m d       a:m d
+		}
+		\alternative {
+			g1 a2:m d:7 
+		}
+		{
+			g4  g/d  g:m/cis g:m/c   
+		}
+		 h1
+}       
+		
+                  
+
 akkordeon_outro = \relative c' {
 	#(set-accidental-style 'modern-cautionary)
 	\key e \minor
-	\partial 2.
-	h'8 c h a g fis e1\fermata \bar "|."
+	%\partial 2.
+	e4 h'8 c h a g fis e1\fermata \bar "|."
+}
+
+akkordeonchords_outro = \chordmode {
+	\germanChords
+	\set chordNameLowercaseMinor = ##t
+	\set chordChanges = ##t
+	\set noChordSymbol = ""
+
+	%\partial 2
+	e1:m e4:m
 }

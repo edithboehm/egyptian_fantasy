@@ -56,8 +56,8 @@ melody_mittelteil =
 outro = \relative c' {
 	#(set-accidental-style 'modern-cautionary)
 		\key e \minor
-		\partial 2.
-		h'8 c h c cis dis e1\fermata \bar "|."
+		%\partial 2.
+		e4 h'8 c h c cis dis e1\fermata \bar "|."
 	}
 
 begleitung_mittelteil =

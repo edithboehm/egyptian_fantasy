@@ -85,7 +85,7 @@
 			%\clef alto
 			%\begleitung_mittelteil
 		%}
-
+	        \new ChordNames \akkordeonchords_mittelteil
 		\new Staff \with {
 			instrumentName = Akkordeon
 		} {\akkordeon_mittelteil}
@@ -99,6 +99,7 @@
 			\clef violin
 			\outro
 		}
+		\new ChordNames \akkordeonchords_outro
 		\new Staff \with {
 			instrumentName = Akkordeon
 		} {\akkordeon_outro}
