@@ -36,7 +36,6 @@ melody_mittelteil =
 				h'4-. h-- ais-. ais-- h r h8. e16 r8 h32 (a g fis) e4-. e--
 				dis-. dis-- d r r2 d4 \times 2/3 {r8 r e}
 				fis d ~ \times 2/3 {d e fis} h8 h4 r8 r2
-
 			}
 			\alternative {
 				{
@@ -51,8 +50,8 @@ melody_mittelteil =
 				}
 			}
 			\times 2/3 {h4 e8} h d ~ d2\fermata
-
 		}
+
 outro = \relative c' {
 	#(set-accidental-style 'modern-cautionary)
 		\key e \minor

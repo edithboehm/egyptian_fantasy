@@ -9,9 +9,7 @@ akkordeonvorspiel =
 			\times 2/3 {e8 g h} \times 2/3 {e, g h} \times 2/3 {e, g h} \times 2/3 {e, g h}
 			\times 2/3 {cis, e a} \times 2/3 {cis, e a} \times 2/3 {dis, fis h} \times 2/3 {dis, fis h}
 		}
-
 	}
-
 
 akkordeon =
 	\relative c' {
@@ -52,7 +50,6 @@ akkordeonchords_one = \chordmode {
 
 	e1:m
 	a2 h
-
 }
 
 akkordeonchords = \chordmode {
@@ -131,21 +128,19 @@ akkordeonchords_mittelteil = \chordmode {
 
 		\partial 2
 			d2
-	
+
 		\repeat volta 3 {
-			g2 d     g1 
+			g2 d     g1
                         e2:m h   e1:m       a2:m d       a:m d
 		}
 		\alternative {
-			g1 a2:m d:7 
+			g1 a2:m d:7
 		}
 		{
-			g4  g/d  g:m/cis g:m/c   
+			g4  g/d  g:m/cis g:m/c
 		}
 		 h1
-}       
-		
-                  
+}
 
 akkordeon_outro = \relative c' {
 	#(set-accidental-style 'modern-cautionary)
