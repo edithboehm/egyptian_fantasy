@@ -77,6 +77,7 @@ akkordeonchords = \chordmode {
 			e1:m
 			a:m
 			h
+      e1:m
 		}
 	}
 }
@@ -143,10 +144,9 @@ akkordeonchords_mittelteil = \chordmode {
       a2:m d:7
 		}
 		{
-			g4  %g/d  g:m/cis g:m/c
-      g4
+			g4 g/d  g:m/cis g:m/c
+      h1
 		}}
-		%h1
 }
 
 akkordeon_outro = \relative c' {
